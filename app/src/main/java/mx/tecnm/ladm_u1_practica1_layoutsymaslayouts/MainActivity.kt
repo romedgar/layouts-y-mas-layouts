@@ -1,5 +1,6 @@
 package mx.tecnm.ladm_u1_practica1_layoutsymaslayouts
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -29,8 +30,8 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Nunca pares de jugar", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            llamarSet()
+
         }
     }
 
@@ -54,5 +55,10 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
+    }
+
+    private fun llamarSet(){
+        val ventanaSet = Intent(this,SettingsActivity::class.java)
+        startActivity(ventanaSet);
     }
 }

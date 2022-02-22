@@ -10,4 +10,23 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_settings">Configuraciones de Juego</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Alertas de Juego</string>
+    <string name="sync_header">Reporte de Bugs</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Audio de juego</string>
+    <string name="reply_title">Chat de Juego</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Reportar Automáticamente</string>
+    <string name="attachment_title">Descargar Actualizaciones</string>
+    <string name="attachment_summary_on">Las actualizaciones del juego se descargan automáticamente
+    </string>
+    <string name="attachment_summary_off">Descargar actualizaciones manualmente</string>
 </resources>

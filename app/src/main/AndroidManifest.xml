@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LADM_U1_Practica1_LayoutsYMasLayouts">
         <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/Theme.LADM_U1_Practica1_LayoutsYMasLayouts.Fullscreen" />
+        <activity
             android:name=".Destiny"
             android:exported="false" />
         <activity
